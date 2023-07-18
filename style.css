@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-  margin: 20px 0;
+  margin-top: 50px;
 }
 
 .nav {
@@ -143,7 +143,7 @@ body {
 
 .banner-image {
   width: 50%;
-  margin-right: 150px;
+  margin-right: 80px;
 }
 
 .banner-image img {
@@ -151,13 +151,72 @@ body {
   margin: 0 auto;
 }
 
+/* gamer section */
+
+.gamer {
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.gamer-image {
+  margin-left: 90px;
+  margin-right: 20px;
+}
+
+.gamer-image img {
+  width: 100%;
+}
+
+.gamer-content {
+  text-align: right;
+  margin-left: 20px;
+  margin-right: 80px;
+}
+
+.gamer-header {
+  font-size: 30px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-text {
+  color: #534c64;
+  line-height: 30px;
+  width: 490px;
+}
+
+.purpose {
+  color: #534c64;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.message {
+  color: #534c64;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
 @media screen and (max-width: 576px) {
   .nav {
     flex-direction: column;
   }
-  .menu {
+
+  .menu,
+  .gamer {
     flex-direction: column;
-    margin-top: 20px;
   }
 
   .menu a,
@@ -178,12 +237,30 @@ body {
 
   .banner-content {
     width: 100%;
-    padding: 100px 50px;
+    padding: 50px 50px;
+  }
+
+  /* gamer */
+  .gamer-image {
+    margin: 0 auto;
+  }
+  .gamer-content {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .gamer-header {
+    margin-bottom: 30px;
+  }
+  .about-text {
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
-  .nav {
+  .nav,
+  .gamer {
     flex-direction: column;
   }
 
@@ -204,5 +281,25 @@ body {
 
   .banner-content {
     width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  /* gamer */
+
+  .gamer-image {
+    margin: 0 auto;
+  }
+  .gamer-content {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .gamer-header {
+    margin-bottom: 30px;
+  }
+  .about-text {
+    width: 90%;
+    margin: 0 auto;
   }
 }
