@@ -77,6 +77,28 @@
     bottom: -80px;
     left: -80px;
   }
+
+  /* any place section */
+  .any-place {
+    flex-direction: column-reverse;
+    gap: 70px;
+  }
+
+  .any-place-content {
+    text-align: center;
+  }
+
+  .any-place-image {
+    width: 70%;
+    margin-right: 170px;
+  }
+
+  .any-small-image {
+    width: 150px;
+    position: absolute;
+    bottom: -80px;
+    right: -70px;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -129,6 +151,8 @@
     flex-wrap: wrap;
   }
 
+  /* instant play section */
+
   .insta-play-content {
     text-align: center;
   }
@@ -143,5 +167,25 @@
   .insta-play-image {
     width: 550px;
     margin-left: 65px;
+  }
+
+  /* any place sction */
+  .any-place {
+    margin-top: 130px;;
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+
+  .any-place-content {
+    text-align: center;
+  }
+
+  .any-text {
+    width: 500px;
+  }
+
+  .any-place-image {
+    width: 550px;
+    margin-right: 200px;
   }
 }

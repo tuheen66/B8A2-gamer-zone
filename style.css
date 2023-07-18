@@ -343,4 +343,44 @@ body {
   width: 100%;
 }
 
+/* play any place section  */
 
+.any-place {
+  margin-top: 120px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  gap: 180px;
+}
+
+.any-place-image {
+  margin-left: 100px;
+  width: 500px;
+  position: relative;
+}
+
+.any-img-big {
+  width: 100%;
+}
+
+.any-small-image {
+  width: 250px;
+  position: absolute;
+  bottom: -110px;
+  right: -110px;
+}
+
+.any-small-image img {
+  width: 100%;
+}
+
+.shady {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.any-text {
+  width: 400px;
+}
