@@ -182,7 +182,7 @@ body {
 }
 
 .gamer-header {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 700;
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
@@ -209,97 +209,138 @@ body {
   line-height: 45px;
 }
 
-@media screen and (max-width: 576px) {
-  .nav {
-    flex-direction: column;
-  }
+/* games cards */
 
-  .menu,
-  .gamer {
-    flex-direction: column;
-  }
-
-  .menu a,
-  .menu .social {
-    margin-top: 30px;
-  }
-
-  /* banner */
-
-  .banner {
-    flex-direction: column-reverse;
-  }
-
-  .banner-image {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .banner-content {
-    width: 100%;
-    padding: 50px 50px;
-  }
-
-  /* gamer */
-  .gamer-image {
-    margin: 0 auto;
-  }
-  .gamer-content {
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  .gamer-header {
-    margin-bottom: 30px;
-  }
-  .about-text {
-    width: 90%;
-    margin: 0 auto;
-  }
+.online-games {
+  text-align: center;
 }
 
-@media screen and (min-width: 576px) and (max-width: 960px) {
-  .nav,
-  .gamer {
-    flex-direction: column;
-  }
-
-  .menu {
-    margin-top: 30px;
-  }
-
-  /* banner */
-
-  .banner {
-    flex-direction: column-reverse;
-  }
-
-  .banner-image {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .banner-content {
-    width: 100%;
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-
-  /* gamer */
-
-  .gamer-image {
-    margin: 0 auto;
-  }
-  .gamer-content {
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  .gamer-header {
-    margin-bottom: 30px;
-  }
-  .about-text {
-    width: 90%;
-    margin: 0 auto;
-  }
+.online-games-title {
+  color: #0b0223;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
+
+.funny {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.online-games-text {
+  color: #534c64;
+}
+
+.games-card-container {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+.game-card-image {
+  width: 280px;
+  position: relative;
+}
+
+.game-card-image img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.content:hover {
+  opacity: 1;
+}
+
+.play {
+  background: #fff;
+  padding: 5px 7px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.watch {
+  color: #f948b2;
+  font-weight: 400;
+}
+.card-description {
+  text-align: left;
+  width: 280px;
+  color: #534c64;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+/* instant play section */
+
+.instant-play-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 180px;
+}
+
+.insta-play-content {
+  text-align: right;
+}
+
+.insta-heading {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.pink {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.insta-text {
+  width: 320px;
+  margin-top: 20px;
+}
+
+.insta-play-image {
+  width: 500px;
+  position: relative;
+}
+
+.insta-play-image .img-big {
+  width: 100%;
+}
+
+.small-image {
+  width: 250px;
+  position: absolute;
+  bottom: -80px;
+  left: -100px;
+}
+
+.small-image img {
+  width: 100%;
+}
+
+

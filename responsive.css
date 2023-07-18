@@ -1,0 +1,147 @@
+@media screen and (max-width: 576px) {
+  .nav,
+  .menu,
+  .gamer,
+  .games-card-container,
+  .instant-play-section {
+    flex-direction: column;
+  }
+
+  .menu a,
+  .menu .social {
+    margin-top: 30px;
+  }
+
+  /* banner */
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+
+  .banner-image {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .banner-content {
+    width: 100%;
+    padding: 50px 50px;
+  }
+
+  /* gamer */
+  .gamer-image {
+    margin: 0 auto;
+  }
+  .gamer-content {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .gamer-header {
+    margin-bottom: 30px;
+  }
+  .about-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* games card */
+  .game-card-image {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .card-description {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* instant play */
+
+  .instant-play-section {
+    gap: 60px;
+  }
+
+  .insta-play-content {
+    text-align: center;
+  }
+
+  .insta-play-image {
+    width: 300px;
+    margin-left: 60px;
+  }
+
+  .small-image {
+    width: 150px;
+    position: absolute;
+    bottom: -80px;
+    left: -80px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  .nav,
+  .gamer,
+  .instant-play-section {
+    flex-direction: column;
+  }
+
+  .menu {
+    margin-top: 30px;
+  }
+
+  /* banner */
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+
+  .banner-image {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .banner-content {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  /* gamer */
+
+  .gamer-image {
+    margin: 0 auto;
+  }
+  .gamer-content {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .gamer-header {
+    margin-bottom: 30px;
+  }
+  .about-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .games-card-container {
+    flex-wrap: wrap;
+  }
+
+  .insta-play-content {
+    text-align: center;
+  }
+  .insta-text {
+    width: 500px;
+  }
+
+  .instant-play-section {
+    gap: 50px;
+  }
+
+  .insta-play-image {
+    width: 550px;
+    margin-left: 65px;
+  }
+}
