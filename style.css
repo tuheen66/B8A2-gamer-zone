@@ -272,6 +272,7 @@ body {
 
 .content:hover {
   opacity: 1;
+  cursor:pointer;
 }
 
 .play {
