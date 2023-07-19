@@ -445,18 +445,50 @@ body {
   width: 100%;
 }
 
+/* game buttons section */
+
+.game-buttons {
+  margin: 50px 0;
+}
+
+.game-buttons-container {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.game-button {
+  display: flex;
+  align-items: center;
+  padding: 2px 5px;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+
+.game-button:hover {
+  border: 1px solid #f948b2;
+  color: #f948b2;
+}
+
+.game-button img {
+  margin-right: 8px;
+  width: 25%;
+}
+
 @media screen and (max-width: 576px) {
   .nav,
   .menu,
   .gamer,
   .games-card-container,
   .instant-play-section,
-  
   .careers {
     flex-direction: column;
   }
 
-  .any-place{
+  .any-place {
     flex-direction: column-reverse;
   }
 
@@ -482,8 +514,7 @@ body {
   }
 
   /* gamer */
-  
-  
+
   .gamer-content {
     text-align: center;
     margin: 0 auto;
@@ -499,7 +530,6 @@ body {
 
   /* games card */
 
- 
   .game-card-image {
     width: 100%;
     margin-top: 20px;
@@ -534,7 +564,6 @@ body {
 
   /* any place section */
   .any-place {
-    
     gap: 70px;
   }
 
@@ -585,6 +614,37 @@ body {
   .career-image {
     width: 100%;
     margin-top: 20px;
+    margin-left: 0;
+  }
+
+  /* game buttons section */
+
+  .game-buttons-container {
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap:1px
+   
+  }
+
+  .game-button {
+    display: flex;
+    align-items: center;
+    
+    padding: 2px 5px;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    background-color: transparent;
+  }
+
+  .game-button img {
+    margin-right: 2px;
+    width: 15%;
+  }
+
+  .game-button span {
+    font-size: 12px;
+    text-align:left;
+    margin-left: 2px;
   }
 }
 
@@ -646,7 +706,6 @@ body {
   .insta-play-content {
     text-align: center;
     margin-right: 80px;
-    
   }
   .insta-text {
     width: 500px;
@@ -685,7 +744,7 @@ body {
   /*  career section */
 
   .career-content {
-   margin-right: 150px;
+    margin-right: 150px;
     padding-top: 50px;
   }
 
@@ -713,5 +772,14 @@ body {
   .career-image {
     width: 70%;
     margin-top: 20px;
+  }
+
+  /* game buttons section */
+
+  .game-button {
+    width: 100%;
+  }
+  .game-buttons-container {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
