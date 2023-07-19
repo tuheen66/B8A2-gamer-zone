@@ -451,8 +451,13 @@ body {
   .gamer,
   .games-card-container,
   .instant-play-section,
+  
   .careers {
     flex-direction: column;
+  }
+
+  .any-place{
+    flex-direction: column-reverse;
   }
 
   .menu a,
@@ -477,9 +482,8 @@ body {
   }
 
   /* gamer */
-  .gamer-image {
-    margin: 0 auto;
-  }
+  
+  
   .gamer-content {
     text-align: center;
     margin: 0 auto;
@@ -495,8 +499,7 @@ body {
 
   /* games card */
 
-  .game-card-container {
-  }
+ 
   .game-card-image {
     width: 100%;
     margin-top: 20px;
@@ -531,7 +534,7 @@ body {
 
   /* any place section */
   .any-place {
-    flex-direction: column-reverse;
+    
     gap: 70px;
   }
 
@@ -617,7 +620,8 @@ body {
   /* gamer */
 
   .gamer-image {
-    margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 50px;
   }
   .gamer-content {
     text-align: center;
@@ -628,20 +632,21 @@ body {
     margin-bottom: 30px;
   }
   .about-text {
-    width: 90%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 0 60px;
   }
 
   .games-card-container {
     flex-wrap: wrap;
-    margin-right: 40px;
+    margin-right: 100px;
   }
 
   /* instant play section */
 
   .insta-play-content {
     text-align: center;
-    margin-right: ;
+    margin-right: 80px;
+    
   }
   .insta-text {
     width: 500px;
@@ -653,10 +658,10 @@ body {
 
   .insta-play-image {
     width: 500px;
-    margin-left: 100px;
+    margin-left: 50px;
   }
 
-  /* any place sction */
+  /* any place section */
   .any-place {
     margin-top: 130px;
     flex-direction: column-reverse;
@@ -665,6 +670,7 @@ body {
 
   .any-place-content {
     text-align: center;
+    margin-right: 80px;
   }
 
   .any-text {
@@ -672,27 +678,27 @@ body {
   }
 
   .any-place-image {
-    width: 550px;
-    margin-right: 150px;
+    width: 500px;
+    margin-right: 230px;
   }
 
   /*  career section */
 
   .career-content {
-    margin-left: 10px;
+   margin-right: 150px;
     padding-top: 50px;
   }
 
   .career-description {
     width: 400px;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .career-name,
   .location {
     line-height: 20px;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .btn-white {
